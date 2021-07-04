@@ -1,0 +1,72 @@
+
+/* selector for element */
+h1 {
+    color: blue;
+    background-color: yellow;
+    border: 1px groove black;
+}
+
+p {
+    color: red;
+}
+
+/* selector for class */
+.content {
+    padding: 40px 6px 6px 4px;
+}
+
+/* Selector for Pseudo Element */
+.content::before {
+    content: "Hello"
+}
+
+.content::after {
+    content: "Hello then, bye!"
+}
+
+/* selector for attribute */
+input[type="password"] {
+    color:blue;
+    outline: none;
+}
+
+p, li{
+    text-decoration: underline;
+}
+ol {
+    border: 1px none black;
+    background-color: gray;
+}
+
+button {
+    background: black;
+    border-color: white;
+    color: white;
+}
+
+/* Selector for id */
+#btn {
+    background: green;
+    border-color: white;
+    color: white;
+}
+
+/* Selector for pseudo class */
+#btn:hover {
+    background: blue;
+    border-color: white;
+    color: white;
+}
+
+button:hover {
+    background: blue;
+    border-color: white;
+    color: white;
+}
+
+@media (min-width: 801px) {
+    body {
+        margin: 0 auto;
+        width: 800px;
+    }
+}
